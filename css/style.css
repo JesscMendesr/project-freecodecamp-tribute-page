@@ -87,7 +87,7 @@ ul {
   font-size: 2em;
   margin-bottom: 16px;
 }
-.item {
+.item-section {
   padding: 60px 80px 120px;
 }
 
@@ -182,7 +182,7 @@ footer p {
 }
 
 @media (max-width: 1000px) {
-  .item {
+  .item-section {
     padding: 0px 40px;
   }
 
@@ -258,11 +258,11 @@ footer p {
   }
 
   .intro-bio h2 {
-    font-size: 0.87em;
+    font-size: 1.5em;
     margin-bottom: 16px;
   }
   .intro-bio h3 {
-    font-size: 1em;
+    font-size: 1.25em;
     margin-bottom: 10px;
   }
   .intro-bio {
@@ -281,7 +281,7 @@ footer p {
     padding-top: 10px;
   }
   .item h3 {
-    font-size: 1.5em;
+    font-size: 1.25em;
     padding-top: 20px;
     margin-bottom: 20px;
   }

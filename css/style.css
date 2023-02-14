@@ -312,4 +312,19 @@ footer p {
   blockquote {
     font-size: 1em;
   }
+  .bg {
+    padding: 0px 6px;
+  }
+
+  .bg-3 {
+    padding: 0px 6px;
+  }
+
+  .bg-5 {
+    padding: 0px 6px;
+  }
+
+  .bg-6 {
+    padding: 0px 6px;
+  }
 }

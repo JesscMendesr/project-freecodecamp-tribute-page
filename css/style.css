@@ -205,15 +205,18 @@ footer p {
 }
 
 @media (max-width: 600px) {
+  li {
+    font-size: 0.87em;
+  }
   .intro h1 {
     font-size: 3em;
   }
   .intro p {
-    font-size: 1.12em;
+    font-size: 1em;
   }
 
   .intro-bio p {
-    font-size: 0.75em;
+    font-size: 0.87em;
   }
 
   .intro-bio h2 {
@@ -228,25 +231,31 @@ footer p {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+  .item h3 {
+    font-size: 2em;
+  }
   blockquote {
-    font-size: 1.5em;
+    font-size: 1.25em;
+  }
+  figcaption {
+    font-size: 0.75em;
   }
 }
 
 @media (max-width: 400px) {
   li {
-    font-size: 0.75em;
+    font-size: 0.87em;
   }
   .intro h1 {
     font-size: 2em;
     padding: 20px;
   }
   .intro p {
-    font-size: 0.75em;
+    font-size: 1em;
   }
 
   .intro-bio h2 {
-    font-size: 1em;
+    font-size: 0.87em;
     margin-bottom: 16px;
   }
   .intro-bio h3 {

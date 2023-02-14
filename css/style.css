@@ -183,9 +183,6 @@ footer p {
     padding: 20px 40px 80px;
   }
 
-  .container.large {
-  }
-
   .item h3 {
     padding-top: 60px;
   }
@@ -243,21 +240,6 @@ footer p {
   figcaption {
     font-size: 0.75em;
   }
-  .bg {
-    padding: 0px 10px;
-  }
-
-  .bg-3 {
-    padding: 0px 10px;
-  }
-
-  .bg-5 {
-    padding: 0px 10px;
-  }
-
-  .bg-6 {
-    padding: 0px 10px;
-  }
 }
 
 @media (max-width: 400px) {
@@ -311,20 +293,5 @@ footer p {
   }
   blockquote {
     font-size: 1em;
-  }
-  .bg {
-    padding: 0px 6px;
-  }
-
-  .bg-3 {
-    padding: 0px 6px;
-  }
-
-  .bg-5 {
-    padding: 0px 6px;
-  }
-
-  .bg-6 {
-    padding: 0px 6px;
   }
 }

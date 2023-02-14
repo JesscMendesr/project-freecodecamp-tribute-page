@@ -38,7 +38,7 @@ ul {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 60px 80px 120px;
   box-sizing: inherit;
 }
 
@@ -87,27 +87,24 @@ ul {
   font-size: 2em;
   margin-bottom: 16px;
 }
-.item-section {
-  padding: 60px 80px 120px;
-}
 
 .bg {
-  padding: 40px 0 0;
+  padding: 0px 20px;
   background-color: #f2b705;
 }
 
 .bg-3 {
-  padding: 0px;
+  padding: 0px 20px;
   background-color: #f28705;
 }
 
 .bg-5 {
-  padding: 0px;
+  padding: 0px 20px;
   background-color: #bf4124;
 }
 
 .bg-6 {
-  padding: 0px;
+  padding: 0px 20px;
   background-color: #000;
 }
 
@@ -181,9 +178,12 @@ footer p {
   background-color: #000;
 }
 
-@media (max-width: 1000px) {
-  .item-section {
-    padding: 0px 40px;
+@media (max-width: 1400px) {
+  .container {
+    padding: 20px 40px 80px;
+  }
+
+  .container.large {
   }
 
   .item h3 {
@@ -262,7 +262,7 @@ footer p {
     margin-bottom: 16px;
   }
   .intro-bio h3 {
-    font-size: 1.25em;
+    font-size: 1em;
     margin-bottom: 10px;
   }
   .intro-bio {
@@ -281,7 +281,7 @@ footer p {
     padding-top: 10px;
   }
   .item h3 {
-    font-size: 1.25em;
+    font-size: 1.5em;
     padding-top: 20px;
     margin-bottom: 20px;
   }

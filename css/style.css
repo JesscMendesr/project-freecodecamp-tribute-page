@@ -243,6 +243,21 @@ footer p {
   figcaption {
     font-size: 0.75em;
   }
+  .bg {
+    padding: 0px 10px;
+  }
+
+  .bg-3 {
+    padding: 0px 10px;
+  }
+
+  .bg-5 {
+    padding: 0px 10px;
+  }
+
+  .bg-6 {
+    padding: 0px 10px;
+  }
 }
 
 @media (max-width: 400px) {
